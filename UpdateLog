@@ -1,0 +1,45 @@
+UPDATE V1.07
+(French)
+Corriger une erreur dans le fichier XML pour le plugin compendium
+(English)
+Correct an error in the XML file for the compendium plugin
+(Deutsche)
+Korrigieren Sie einen Fehler in der XML-Datei für das Kompendium-Plugin
+
+UPDATE V1.06
+(French)
+Rajout d'une ligne de commande pour activer la touche alt pour le deplacement de l'icone
+(English)
+Addition of a command line to activate the alt key for moving the icon
+(Deutsche)
+Hinzufügen einer Befehlszeile zum Aktivieren der Alt-Taste zum Verschieben des Symbols
+
+UPDATE V1.05
+(French)
+Corriger un bug de sauvegarde qui affectait tous mes plugins (maudit, copier-coller)
+(English)
+Fix a backup bug that affected all my plugins (damn, copy and paste)
+(Deutsche)
+Behebung eines Backup-Fehlers, der alle meine Plugins betraf (verdammt, kopieren und einfügen)
+
+UPDATE V1.04
+(French)
+Nettoyage du code
+Optimisation (Utilise beaucoup moins de ressources machine)
+(English)
+Code cleaning
+Optimization (Uses much less machine resources)
+(Deutsche)
+Code-Reinigung
+Optimierung (Verbraucht viel weniger Maschinenressourcen)
+
+UPDATE V1.03
+(French)
+Changer l'opacité de la fenetre
+Changer la couleur du texte en journée
+(English)
+Change the opacity of the window
+Change the text color during the day
+(Deutsche)
+Ändern Sie die Deckkraft des Fensters
+Ändern Sie die Textfarbe während des Tages
