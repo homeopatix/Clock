@@ -10,38 +10,38 @@ function CreateLocalizationInfo()
 		Strings.PluginEscDesable = "Escape-Taste deaktiviert";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginOptionsText = "Clock Options";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
-		Strings.PluginOption10 = "\195\132nderungen validieren";
-		Strings.PluginHelp = " *** Clock Hilfe ***\n\n/show zeigt das Fenster an\n " ..
-		"/hide verstecke das Fenster\n" ..
-		"/clear l\195\182sche alle Verkn\195\188pfungen\n" ..
-		"/esc aktiviert oder deaktiviert das Fenster, das mit der Escape-Taste geschlossen wird\n" ..
-		"/alt - Aktivieren oder deaktivieren Sie die alt-Taste um das Symbol zu verschieben.\n" ..
-		"/options - Zeigen Sie das Optionsfenster an\n" ..
-		"/toggle - Fenster ein-oder ausblenden\n\n" ..
+		Strings.PluginOptionsText = "Clock Optionen";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
+		Strings.PluginOption10 = "Speichern";
+		Strings.PluginHelp = " *** Clock Hilfe ***\n\n/cl show - Zeigt das Fenster an.\n " ..
+		"/cl hide - Blendet das Fenster aus.\n" ..
+		"/cl clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+		"/cl esc - Aktiviert/Deaktiviert die Escape-Taste, um das Fenster zu schlie\195\159en.\n" ..
+		"/cl alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/cl options - Zeigt die Optionen an.\n" ..
+		"/cl toggle - Fenster anzeigen/ausblenden.\n\n" ..
 		"Sie k\195\182nnen Ihre Verbrauchsmaterialien per Drag & Drop auf die Linie ziehen und mit dem Mausrad l\195\182schen";
-		Strings.TimeOfDay1 = "MorgenDämmerung";
-		Strings.TimeOfDay2 = "VorMittag";
+		Strings.TimeOfDay1 = "Morgend\195\164mmerung";
+		Strings.TimeOfDay2 = "Vormittag";
 		Strings.TimeOfDay3 = "Mittag";
 		Strings.TimeOfDay4 = "Nachmittag";
-		Strings.TimeOfDay5 = "Dämmerung";
-		Strings.TimeOfDay6 = "Zwielicht";
+		Strings.TimeOfDay5 = "Abendr\195\182te";
+		Strings.TimeOfDay6 = "Abendd\195\164mmerung";
 		Strings.TimeOfDay7 = "Abend";
 		Strings.TimeOfDay8 = "Mitternacht";
-		Strings.TimeOfDay9 = "NachtWache";
-		Strings.TimeOfDay10 = "MorgenRöte";
-		Strings.OptionsAlarm = "Definieren Sie den Alarm";
-		Strings.OptionsAlarm1 = "Stunden";
-		Strings.OptionsAlarm2 = "Minuten";
-		Strings.OptionsAlarm3 = " Wecker stellen";
-		Strings.OptionsAlarm4 = "Alarm eingestellt auf : ";
-		Strings.OptionsAlarm5 = "Alarm : ";
-		Strings.OptionsAlarm6 = "!!!! ALARM !!!!";
-		Strings.Options1 = "Stellen Sie den Server ein";
-		Strings.Options2 = "12 Stunden oder 24 Stunden";
-		Strings.PluginOptionShowWindow = "Zeigen Sie das Optionsfenster an";
+		Strings.TimeOfDay9 = "Nachtwache";
+		Strings.TimeOfDay10 = "Morgenr\195\182te";
+		Strings.OptionsAlarm = "Stelle die Alarmzeit ein:";
+		Strings.OptionsAlarm1 = "Stunde";
+		Strings.OptionsAlarm2 = "Minute";
+		Strings.OptionsAlarm3 = " Alarm aktivieren";
+		Strings.OptionsAlarm4 = "Alarm eingestellt auf: ";
+		Strings.OptionsAlarm5 = "Alarm: ";
+		Strings.OptionsAlarm6 = "!!! ALARM !!!";
+		Strings.Options1 = "W\195\164hle deinen Server aus";
+		Strings.Options2 = "12 Stunden Modus";
+		Strings.PluginOptionShowWindow = "Zeigt das Optionsfenster an";
 
 	elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Clock";
