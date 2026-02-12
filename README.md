@@ -1,49 +1,92 @@
-DESCRIPTION (Francais)
+# 🕒 Clock – LOTRO Plugin
 
-Clock est un petit plugin pour avoir une vision rapide de l'heure et de la periode de la journee
-Clique droite sur l'icone pour afficher la fenetre d'options
-Vous pouvez definir une alarme
-Si le plugin n'est pas synchroniser, changer de serveur dans les options
-Clique droite sur l'icone pour afficher les options
+![Lua](https://img.shields.io/badge/Lua-Plugin-blue)
+![LOTRO](https://img.shields.io/badge/Game-LOTRO-darkgreen)
+![Status](https://img.shields.io/badge/status-active-success)
 
-DESCRIPTION (English)
+Clock est un plugin **Lua pour The Lord of the Rings Online (LOTRO)**  
+permettant d'avoir une **vue rapide de l'heure et de la période de la journée**.
 
-Clock is a small plugin to have a quick view of the time and the period of the day
-Right click on the icon to display the options window
-You can set an alarm
-If the plugin is not synchronized, change server in the options
-Right click on the icon to display the options
+---
 
-DESCRIPTION (Deutsche)
+# 📖 Description
 
-Clock ist ein kleines Plugin, mit dem Sie schnell die Uhrzeit und die Tageszeit anzeigen können
-Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster anzuzeigen
-Sie konnen einen Alarm einstellen
-Wenn das Plugin nicht synchronisiert ist, andern Sie den Server in den Optionen
-Klicken Sie mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen
+## 🇫🇷 Français
 
-LIST OF ALL COMMANDS
+Clock est un petit plugin permettant d'avoir une vision rapide de l'heure et de la période de la journée.
 
-(French)
-Raccourci disponible
-/Cl show -- montre la fenetre
-/Cl hide -- cache la fenetre
-/Cl esc - active ou desactive la touche escape
-/Cl options -- affiche la fenetre d'option
-/Cl toggle - Affiche ou cache la fenetre
+- Clic droit sur l'icône pour afficher la fenêtre d'options
+- Vous pouvez définir une alarme
+- Si le plugin n'est pas synchronisé, changez de serveur dans les options
+- Clic droit sur l'icône pour afficher les options
 
-(English)
-Shortcut available
-/Cl show - show the window
-/Cl hide - hide the window
-/Cl esc - activate or deactivate the escape key
-/Cl options -- display the options panel
-/Cl toggle - Display or hide the window
+---
 
-(Deutsche)
-Verknupfung verfugbar
-/Cl show - zeige das Fenster
-/Cl Hide - Verstecke das Fenster
-/Cl esc - Aktivieren oder deaktivieren Sie die Escape-Taste
-/Cl options -- Zeigen Sie das Optionsfeld an
-/Cl toggle - Fenster ein-oder ausblenden
+## 🇬🇧 English
+
+Clock is a small plugin that provides a quick view of the time and the period of the day.
+
+- Right click on the icon to display the options window
+- You can set an alarm
+- If the plugin is not synchronized, change server in the options
+- Right click on the icon to display the options
+
+---
+
+## 🇩🇪 Deutsch
+
+Clock ist ein kleines Plugin, mit dem Sie schnell die Uhrzeit und die Tageszeit anzeigen können.
+
+- Klicken Sie mit der rechten Maustaste auf das Symbol, um das Optionsfenster anzuzeigen
+- Sie können einen Alarm einstellen
+- Wenn das Plugin nicht synchronisiert ist, ändern Sie den Server in den Optionen
+- Klicken Sie mit der rechten Maustaste auf das Symbol, um die Optionen anzuzeigen
+
+---
+
+# 🎮 Commandes & Raccourcis
+
+## 📌 Commandes Chat
+
+### 🇫🇷 Français
+
+| Commande | Description |
+|-----------|-------------|
+| `/Cl show` | Montre la fenêtre |
+| `/Cl hide` | Cache la fenêtre |
+| `/Cl esc` | Active ou désactive la touche Escape |
+| `/Cl options` | Affiche la fenêtre d'options |
+| `/Cl toggle` | Affiche ou cache la fenêtre |
+
+---
+
+### 🇬🇧 English
+
+| Command | Description |
+|-----------|-------------|
+| `/Cl show` | Show the window |
+| `/Cl hide` | Hide the window |
+| `/Cl esc` | Activate or deactivate the Escape key |
+| `/Cl options` | Display the options panel |
+| `/Cl toggle` | Display or hide the window |
+
+---
+
+### 🇩🇪 Deutsch
+
+| Befehl | Beschreibung |
+|-----------|-------------|
+| `/Cl show` | Zeige das Fenster |
+| `/Cl hide` | Verstecke das Fenster |
+| `/Cl esc` | Aktivieren oder deaktivieren Sie die Escape-Taste |
+| `/Cl options` | Zeigen Sie das Optionsfeld an |
+| `/Cl toggle` | Fenster ein- oder ausblenden |
+
+---
+
+# 🧩 Installation
+
+1. Télécharger le ZIP depuis GitHub
+2. Extraire le dossier
+3. Copier le dossier `Clock` dans :
+
