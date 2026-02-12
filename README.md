@@ -88,5 +88,5 @@ Clock ist ein kleines Plugin, mit dem Sie schnell die Uhrzeit und die Tageszeit 
 
 1. Télécharger le ZIP depuis GitHub
 2. Extraire le dossier
-3. Copier le dossier `Clock` dans :
+3. Copier le dossier `Clock` dans : C:\Documents\The Lord of the Rings Online\Plugins\Homeopatix
 
