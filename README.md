@@ -79,33 +79,35 @@ Online`\PluginData`{=tex}\<Compte\>\<Serveur\>\<Personnage\>
 -   Type : Plugin LOTRO\
 -   Stockage : PluginData local\
 -   Compatibilité : Toutes versions récentes
-
 ------------------------------------------------------------------------
 
 # ❗ Requirements / Besoins / Bedürfnisse
 
 ## 🇫🇷 !!! Besoins !!!
 
-Vous devez avoir installé le package Turbine.\
-Téléchargeable via LOTROInterface ou Compendium Plugins (Turbine
-Examples).
+Vous devez avoir installé le package **Turbine**.\
+Vous pouvez le télécharger à cette adresse : **[ICI](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
+
+------------------------------------------------------------------------
 
 ## 🇬🇧 !!! Needs !!!
 
-You need to have the Turbine package installed.\
-Available via LOTROInterface or Compendium Plugins (Turbine Examples).
+You need to have the **Turbine package** installed.\
+You can download it at this address: **[HERE](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
+
+------------------------------------------------------------------------
 
 ## 🇩🇪 !!! Bedürfnisse !!!
 
-Sie müssen das Turbine-Paket installiert haben.\
-Verfügbar über LOTROInterface oder Compendium Plugins (Turbine
-Examples).
+Sie müssen das **Turbine-Paket** installiert haben.\
+Sie können es unter dieser Adresse herunterladen: **[HIER](https://www.lotrointerface.com/downloads/info1064-TurbineUtilities.html)**
 
 ------------------------------------------------------------------------
 
 # 📜 License
 
-MIT License
+This project is licensed under the MIT License -- see the LICENSE file
+for details.
 
 ------------------------------------------------------------------------
 
