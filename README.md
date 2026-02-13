@@ -28,11 +28,11 @@ journée**.
 
   Commande        Description
   --------------- --------------------------------------
-  `/Cl show`      Montre la fenêtre principale
-  `/Cl hide`      Cache la fenêtre principale
-  `/Cl toggle`    Affiche ou cache la fenêtre
-  `/Cl esc`       Active ou désactive la touche Escape
-  `/Cl options`   Affiche la fenêtre d'options
+  | `/Cl show`    |   Montre la fenêtre principale | 
+  | `/Cl hide`    |   Cache la fenêtre principale | 
+  | `/Cl toggle`  |   Affiche ou cache la fenêtre | 
+  | `/Cl esc`     |   Active ou désactive la touche Escape | 
+  | `/Cl options` |   Affiche la fenêtre d'options | 
 
 ------------------------------------------------------------------------
 
@@ -40,8 +40,8 @@ journée**.
 
   Action               Touche
   -------------------- ------------------------
-  Déplacer l'icône     ALT (si activé)
-  Ouvrir les options   Clic droit sur l'icône
+  | Déplacer l'icône   |   ALT (si activé) | 
+  | Ouvrir les options |   Clic droit sur l'icône | 
 
 ------------------------------------------------------------------------
 
