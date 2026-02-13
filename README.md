@@ -22,26 +22,27 @@ journée**.
 
 ------------------------------------------------------------------------
 
+
 # 🎮 Commandes & Raccourcis
 
 ## 📌 Commandes Chat
 
-  Commande        Description
-  --------------- --------------------------------------
-  | `/Cl show`    |   Montre la fenêtre principale | 
-  | `/Cl hide`    |   Cache la fenêtre principale | 
-  | `/Cl toggle`  |   Affiche ou cache la fenêtre | 
-  | `/Cl esc`     |   Active ou désactive la touche Escape | 
-  | `/Cl options` |   Affiche la fenêtre d'options | 
+  Commande                   Description\
+  -------------------------- ---------------------------------------------------------\
+  `/Alt show`                Montre la fenêtre principale\
+  `/Alt hide`                Cache la fenêtre principale\
+  `/Alt toggle`              Bascule l'affichage de la fenêtre\
+  `/Alt esc`                 Active ou désactive la touche Escape\
+  `/Alt options`             Affiche la fenêtre d'options\
 
-------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 ## 🎹 Raccourcis
 
-  Action               Touche
-  -------------------- ------------------------
-  | Déplacer l'icône   |   ALT (si activé) | 
-  | Ouvrir les options |   Clic droit sur l'icône | 
+  Action               Touche\
+  -------------------- ----------------------------\
+  Déplacer l'icône     `ALT` (si activé)\
+  Ouvrir les options   `SHIFT + clic sur l’icône`
 
 ------------------------------------------------------------------------
 
