@@ -1,3 +1,7 @@
+
+<img width="1536" height="1024" alt="homeo_plugins" src="https://github.com/user-attachments/assets/1b3f50fe-a4c1-4d38-9215-a1f839d7a76b" />
+
+
 # ⏰ Clock -- LOTRO Plugin
 
 ![Lua](https://img.shields.io/badge/Lua-Plugin-blue)
