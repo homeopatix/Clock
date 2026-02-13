@@ -1,74 +1,57 @@
-# 📘 Utilisation – Clock
+# 📘 Utilisation -- Clock
 
----
+------------------------------------------------------------------------
 
 ## ⌨️ Raccourcis
 
-| Action | Touche |
-|--------|--------|
-| Déplacer l’icône | Maintenir **ALT** + glisser |
-| Ouvrir les options | **Clic droit** sur l’icône |
-| Afficher/masquer l’icône | `/Cl toggle` |
+-   ALT : déplacer l'icône (si activé)
+-   Clic droit sur l'icône : ouvrir les options
 
----
+------------------------------------------------------------------------
 
-## 📊 Fonctions principales (Interface)
+## 📊 Fonctions principales
 
-- **Affichage de l’heure actuelle et période de la journée**
-- **Option d’alarme personnalisable**
-- **Synchronisation automatique de l’heure**
-- Si l’heure n’est pas correcte, changez le serveur dans les **options**
+-   Affichage de l'heure actuelle du serveur
+-   Affichage de la période de la journée
+-   Possibilité de configurer une alarme
+-   Synchronisation automatique avec le serveur
+-   Changement manuel du serveur possible dans les options
 
----
+------------------------------------------------------------------------
 
-## 🕹️ Commandes (en jeu)
+## 🕹️ Commandes en jeu
 
 ### 🇫🇷 Français
 
-| Commande | Description |
-|----------|-------------|
-| `/Cl show` | Montre la fenêtre principale |
-| `/Cl hide` | Cache la fenêtre principale |
-| `/Cl esc` | Active ou désactive la touche Escape |
-| `/Cl options` | Affiche la fenêtre d’options |
-| `/Cl toggle` | Affiche ou cache la fenêtre principale |
+/Cl show --- Montre la fenêtre\
+/Cl hide --- Cache la fenêtre\
+/Cl toggle --- Affiche ou cache la fenêtre\
+/Cl esc --- Active ou désactive la touche Escape\
+/Cl options --- Affiche les options
 
----
+------------------------------------------------------------------------
 
 ### 🇬🇧 English
 
-| Command | Description |
-|---------|-------------|
-| `/Cl show` | Show the main window |
-| `/Cl hide` | Hide the main window |
-| `/Cl esc` | Activate or deactivate the escape key |
-| `/Cl options` | Display the options panel |
-| `/Cl toggle` | Display or hide the main window |
+/Cl show --- Show the window\
+/Cl hide --- Hide the window\
+/Cl toggle --- Toggle the window\
+/Cl esc --- Enable or disable Escape key\
+/Cl options --- Open options
 
----
+------------------------------------------------------------------------
 
 ### 🇩🇪 Deutsch
 
-| Befehl | Beschreibung |
-|--------|--------------|
-| `/Cl show` | Zeige das Hauptfenster |
-| `/Cl hide` | Verstecke das Hauptfenster |
-| `/Cl esc` | Aktivieren oder deaktivieren Sie die Escape-Taste |
-| `/Cl options` | Zeigen Sie das Optionsfeld an |
-| `/Cl toggle` | Hauptfenster ein- oder ausblenden |
+/Cl show --- Fenster anzeigen\
+/Cl hide --- Fenster ausblenden\
+/Cl toggle --- Fenster ein-/ausblenden\
+/Cl esc --- Escape-Taste aktivieren/deaktivieren\
+/Cl options --- Optionen öffnen
 
----
+------------------------------------------------------------------------
 
-## 📁 Données & Synchronisation
+## 💾 Sauvegarde
 
-- Les **réglages sont enregistrés automatiquement** à chaque connexion et déconnexion.
-- Si l’heure ou la période affichée ne semble pas correcte, **vérifiez le serveur sélectionné** dans les options.
-- Clock se synchronise sur le serveur pour obtenir l’heure correcte en jeu. :contentReference[oaicite:0]{index=0}
-
----
-
-## 📝 Notes
-
-- Clock utilise le système d’interface standard des plugins LOTRO (comme on le voit sur LOTROInterface). :contentReference[oaicite:1]{index=1}  
-- Le déplacement de l’icône se fait comme pour la plupart des modules d’interface standard. :contentReference[oaicite:2]{index=2}
-
+Les paramètres sont enregistrés automatiquement à chaque connexion et
+déconnexion.
