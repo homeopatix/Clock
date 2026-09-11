@@ -1,5 +1,18 @@
 ---
 
+## V1.15
+
+### 🇫🇷 Français
+- Modification de la liste des serveurs disponible
+
+### 🇬🇧 English
+- Modification of the available server list
+
+### 🇩🇪 Deutsch
+- Änderung der verfügbaren Serverliste
+
+---
+
 ## V1.14
 
 ### 🇫🇷 Français
