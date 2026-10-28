@@ -48,6 +48,11 @@ settings = {
     },
     altEnable = { 
         altEnable = true 
+    },
+    display = {
+        showSeconds = true,
+        showDate = true,
+        compactMode = false
     }
 };
 
@@ -55,7 +60,7 @@ settings = {
 ResourcePath = "Homeopatix/Clock/Resources/";
 
 Images = {
-	MinimizedIcon = ResourcePath .. "Clock.tga",
+ 	MinimizedIcon = ResourcePath .. "Clock.tga",
 };
 
 -- RGB color codes --

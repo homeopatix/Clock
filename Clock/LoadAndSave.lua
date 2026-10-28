@@ -2,22 +2,23 @@
 -- create or load the settings
 ------------------------------------------------------------------------------------------
 function LoadSettings()
-	local _settings = PatchDataLoad(Turbine.DataScope.Server, settingsFileName, settings);
+ 	local _settings = PatchDataLoad(Turbine.DataScope.Server, settingsFileName, settings);
     if (_settings ~= nil) then 
-		settings = _settings; 
-	end
+ 		settings = _settings; 
+ 	end
 
 ------------------------------------------------------------------------------------------
-	--- adding new vars in the settings file ---
+ 	--- adding new vars in the settings file ---
 ------------------------------------------------------------------------------------------
-	if( not settings.Alarm or
+ 	if( not settings.Alarm or
     not settings.isOptionsWindowVisible or
     not settings.Server or
     not settings.isAlarmDefined or
     not settings.ServerName or
     not settings.TimeZone or
     not settings.altEnable or
-    not settings.isWindowVisibleAlways)then
+    not settings.isWindowVisibleAlways or
+    not settings.display)then
     settings = {
         windowPosition = { 
             xPos = settings["windowPosition"]["xPos"], 
@@ -61,6 +62,11 @@ function LoadSettings()
         },
         altEnable = { 
             altEnable = true 
+        },
+        display = {
+            showSeconds = true,
+            showDate = true,
+            compactMode = false
         }
     };
     end
@@ -69,14 +75,14 @@ end
 -- create the save settings
 ------------------------------------------------------------------------------------------
 function SaveSettings()
-	settings["windowPosition"]["xPos"] = tostring(ClockWindow:GetLeft());
+ 	settings["windowPosition"]["xPos"] = tostring(ClockWindow:GetLeft());
     settings["windowPosition"]["yPos"] = tostring(ClockWindow:GetTop());
     settings["IconPosition"]["xPosIcon"] = tostring(MainMinimizedIcon:GetLeft());
    	settings["IconPosition"]["yPosIcon"] = tostring(MainMinimizedIcon:GetTop());
-	settings["isMinimizeEnabled"]["isMinimizeEnabled"] = settings["isMinimizeEnabled"]["isMinimizeEnabled"];
-	settings["isWindowVisible"]["isWindowVisible"] = settings["isWindowVisible"]["isWindowVisible"];
+ 	settings["isMinimizeEnabled"]["isMinimizeEnabled"] = settings["isMinimizeEnabled"]["isMinimizeEnabled"];
+ 	settings["isWindowVisible"]["isWindowVisible"] = settings["isWindowVisible"]["isWindowVisible"];
     settings["isWindowVisibleAlways"]["isWindowVisibleAlways"] = settings["isWindowVisibleAlways"]["isWindowVisibleAlways"];
-	settings["escEnable"]["escEnable"] = settings["escEnable"]["escEnable"];
+ 	settings["escEnable"]["escEnable"] = settings["escEnable"]["escEnable"];
     settings["altEnable"]["altEnable"] = settings["altEnable"]["altEnable"];
     settings["isOptionsWindowVisible"]["isOptionsWindowVisible"] = settings["isOptionsWindowVisible"]["isOptionsWindowVisible"];
 
@@ -87,7 +93,10 @@ function SaveSettings()
     settings["ServerName"]["ServerName"] = settings["ServerName"]["ServerName"];
     settings["TimeZone"]["AMPM"] = settings["TimeZone"]["AMPM"];
     settings["Alarm"]["timePos"] = settings["Alarm"]["timePos"];
+    settings["display"]["showSeconds"] = settings["display"]["showSeconds"];
+    settings["display"]["showDate"] = settings["display"]["showDate"];
+    settings["display"]["compactMode"] = settings["display"]["compactMode"];
    
-   -- save the settings
-	PatchDataSave( Turbine.DataScope.Server, settingsFileName, settings);
+    -- save the settings
+ 	PatchDataSave( Turbine.DataScope.Server, settingsFileName, settings);
 end
