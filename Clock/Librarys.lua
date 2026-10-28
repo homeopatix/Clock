@@ -26,8 +26,10 @@ import "Homeopatix.Clock.Activation";
 ------------------------------------------------------------------------------------------
 -- Import Main Scripts --
 ------------------------------------------------------------------------------------------
-import "Homeopatix.Clock.Main";
+-- Import the options window before the main script, because Main.lua calls
+-- GenerateOptionsWindow() at load time.
 import "Homeopatix.Clock.OptionsWindow";
+import "Homeopatix.Clock.Main";
 import "Homeopatix.Clock.DropDown";
 import "Homeopatix.Clock.ALARMWindow";
 ------------------------------------------------------------------------------------------
