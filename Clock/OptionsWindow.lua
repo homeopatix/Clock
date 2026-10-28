@@ -136,24 +136,14 @@ function GenerateOptionsWindow()
 		OptionsWindow.Message:SetFont(Turbine.UI.Lotro.Font.Verdana18);
 		OptionsWindow.Message:SetText(Strings.Options1); 
 
-		local ServerNames = {"Sirannon [FR]",
-                    "Grond [EU]",
+		local ServerNames = {"Grond [EU]",
+                    "Sting",
                     "Peregrin [RP]",
                     "Meriadoc [EU-RP]",
                     "Glamdring",
                     "Orcrist [EU]",
                     "Angmar",
-                    "Mordor [EU]",
-                    "Belegaer [EU-DE-RP]",
-                    "Gladden [US]",
-                    "Landroval [US-RE]",
-                    "Gwaihir [EU-DE]",
-                    "Arkenstone [US]",
-                    "Evernight [EU]",
-                    "CrickHollow [US]",
-                    "Laurelin [EU-EN-RP]",
-                    "Treebeard",
-                    "Brandywine [US]"
+                    "Mordor [EU]"
 				};
 
 		for i=1, 5 do
@@ -168,15 +158,9 @@ function GenerateOptionsWindow()
 	
 		serverDropDown.ItemChanged = function()
 			local name = serverDropDown:GetText();
-			if(name == "Arkenstone [US]")then
+			if(name == "Sting")then
 				settings["ServerName"]["ServerName"] = name;
 				settings["Server"]["TS"] = 901;
-			elseif(name == "CrickHollow [US]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10350;
-			elseif(name == "Sirannon [FR]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10335;
 			elseif(name == "Grond [EU]")then
 				settings["ServerName"]["ServerName"] = name;
 				settings["Server"]["TS"] = 10335;
@@ -189,31 +173,7 @@ function GenerateOptionsWindow()
 			elseif(name == "Meriadoc [EU-RP]")then
 				settings["ServerName"]["ServerName"] = name;
 				settings["Server"]["TS"] = 10335;
-			elseif(name == "Brandywine [US]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10375;
-			elseif(name == "Gladden [US]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 3226;
-			elseif(name == "Landroval [US-RE]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
 			elseif(name == "Peregrin [RP]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
-			elseif(name == "Laurelin [EU-EN-RP]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
-			elseif(name == "Belegaer [EU-DE-RP]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
-			elseif(name == "Gwaihir [EU-DE]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
-			elseif(name == "Evernight [EU]")then
-				settings["ServerName"]["ServerName"] = name;
-				settings["Server"]["TS"] = 10409;
-			elseif(name == "Treebeard")then
 				settings["ServerName"]["ServerName"] = name;
 				settings["Server"]["TS"] = 10409;
 			elseif(name == "Angmar")then
